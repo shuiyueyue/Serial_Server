@@ -1,0 +1,1207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>627</width>
+    <height>661</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <family>Microsoft YaHei UI</family>
+    <pointsize>10</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>主页面</string>
+  </property>
+  <property name="windowOpacity">
+   <double>0.900000000000000</double>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton:hover{color:white;
+                  border:2px solid #F3F3F5;
+                  border-radius:35px;
+                  background:darkGray;
+				  font: 75 10pt &quot;Microsoft YaHei UI&quot;;}
+QLabel:hover{font: 75 10pt &quot;Microsoft YaHei UI&quot;;}
+QLineEdit{font: 75 10pt &quot;Microsoft YaHei UI&quot;;}
+
+
+</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>621</width>
+      <height>621</height>
+     </rect>
+    </property>
+    <property name="palette">
+     <palette>
+      <active>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </active>
+      <inactive>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>255</red>
+          <green>255</green>
+          <blue>255</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </inactive>
+      <disabled>
+       <colorrole role="Base">
+        <brush brushstyle="SolidPattern">
+         <color alpha="255">
+          <red>240</red>
+          <green>240</green>
+          <blue>240</blue>
+         </color>
+        </brush>
+       </colorrole>
+      </disabled>
+     </palette>
+    </property>
+    <property name="font">
+     <font>
+      <family>Microsoft YaHei UI</family>
+      <pointsize>10</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="mouseTracking">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton:hover{color:white;
+                  border:2px solid #F3F3F5;
+                  border-radius:35px;
+                  background:darkGray;
+				  font: 75 10pt &quot;Microsoft YaHei UI&quot;;}
+QLabel{font: 75 10pt &quot;Microsoft YaHei UI&quot;;}
+QLineEdit{font: 75 10pt &quot;Microsoft YaHei UI&quot;;}</string>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="car_1">
+     <attribute name="title">
+      <string>Car_1</string>
+     </attribute>
+     <widget class="QPushButton" name="Com_Close_Car_1">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>190</y>
+        <width>75</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Close</string>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QLabel" name="Car_1">
+      <property name="geometry">
+       <rect>
+        <x>41</x>
+        <y>176</y>
+        <width>44</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>小车1号</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Com_Open_Car_1">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>150</y>
+        <width>75</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Open</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>300</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>   当前指令</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Status_Send_1">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>280</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>状态发送</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Pic_Send_1">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>430</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>图片发送</string>
+      </property>
+     </widget>
+     <widget class="QSplitter" name="splitter_5">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>390</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label_105">
+       <property name="text">
+        <string>  图片选择</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="Pic_Sel_1">
+       <item>
+        <property name="text">
+         <string>Red_Color.jpg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>green.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>image.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images.jpg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/AlilogoforWiki.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/rob.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/屏幕遮罩.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/胜利.png</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>350</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_2">
+         <property name="text">
+          <string>    模式</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="Car_Mod_1">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_4">
+         <property name="text">
+          <string>    方向</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="Car_Dir_1">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>110</y>
+        <width>175</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_6">
+         <property name="text">
+          <string>X坐标</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="Car_X_1"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Y坐标</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="Car_Y_1"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Z坐标</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="Car_Z_1"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string> 速度</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="Car_V_1"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string> 状态</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="Car_S_1"/>
+       </item>
+      </layout>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Car_2">
+     <attribute name="title">
+      <string>Car_2</string>
+     </attribute>
+     <widget class="QWidget" name="layoutWidget">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>350</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_6">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_46">
+         <property name="text">
+          <string>    模式</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="Car_Mod_2">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_54">
+         <property name="text">
+          <string>    方向</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="Car_Dir_2">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="Car_4">
+      <property name="geometry">
+       <rect>
+        <x>41</x>
+        <y>176</y>
+        <width>44</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>小车2号</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_56">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>300</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>   当前指令</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Status_Send_2">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>280</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>状态发送</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Com_Close_Car_2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>190</y>
+        <width>75</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Close</string>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Pic_Send_2">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>430</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>图片发送</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_2">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>110</y>
+        <width>175</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_6">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_57">
+         <property name="text">
+          <string>X坐标</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="Car_X_2"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_58">
+         <property name="text">
+          <string>Y坐标</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="Car_Y_2"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_59">
+         <property name="text">
+          <string>Z坐标</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="Car_Z_2"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_60">
+         <property name="text">
+          <string> 速度</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="Car_V_2"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_61">
+         <property name="text">
+          <string> 状态</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="Car_S_2"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QSplitter" name="splitter_2">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>390</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label_62">
+       <property name="text">
+        <string>  图片选择</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="Pic_Sel_2">
+       <item>
+        <property name="text">
+         <string>Red_Color.jpg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>green.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>image.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images.jpg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/AlilogoforWiki.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/rob.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/屏幕遮罩.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/胜利.png</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="Com_Open_Car_2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>150</y>
+        <width>75</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Open</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="Car_3">
+     <attribute name="title">
+      <string>Car_3</string>
+     </attribute>
+     <widget class="QWidget" name="layoutWidget_3">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>350</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_9">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_77">
+         <property name="text">
+          <string>    模式</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="Car_Mod_3">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_85">
+         <property name="text">
+          <string>    方向</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="Car_Dir_3">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="Car_5">
+      <property name="geometry">
+       <rect>
+        <x>41</x>
+        <y>176</y>
+        <width>44</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>小车3号</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_87">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>300</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>   当前指令</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Status_Send_3">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>280</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>状态发送</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Com_Close_Car_3">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>190</y>
+        <width>75</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Close</string>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Pic_Send_3">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>430</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>图片发送</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_4">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>110</y>
+        <width>175</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_9">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_88">
+         <property name="text">
+          <string>X坐标</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="Car_X_3"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_89">
+         <property name="text">
+          <string>Y坐标</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="Car_Y_3"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_90">
+         <property name="text">
+          <string>Z坐标</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="Car_Z_3"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_91">
+         <property name="text">
+          <string> 速度</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="Car_V_3"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_92">
+         <property name="text">
+          <string> 状态</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="Car_S_3"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QSplitter" name="splitter_3">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>390</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label_93">
+       <property name="text">
+        <string>  图片选择</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="Pic_Sel_3">
+       <item>
+        <property name="text">
+         <string>Red_Color.jpg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>green.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>image.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images.jpg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/AlilogoforWiki.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/rob.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/屏幕遮罩.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/胜利.png</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="Com_Open_Car_3">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>150</y>
+        <width>75</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Open</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="car_4">
+     <attribute name="title">
+      <string>Car_4</string>
+     </attribute>
+     <widget class="QWidget" name="layoutWidget_5">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>350</y>
+        <width>131</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_10">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_94">
+         <property name="text">
+          <string>    模式</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLabel" name="Car_Mod_4">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_96">
+         <property name="text">
+          <string>    方向</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLabel" name="Car_Dir_4">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QLabel" name="Car_6">
+      <property name="geometry">
+       <rect>
+        <x>41</x>
+        <y>176</y>
+        <width>44</width>
+        <height>19</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>小车4号</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_98">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>300</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>   当前指令</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Status_Send_4">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>280</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>状态发送</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Com_Close_Car_4">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>190</y>
+        <width>75</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Close</string>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="Pic_Send_4">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>430</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>图片发送</string>
+      </property>
+     </widget>
+     <widget class="QWidget" name="layoutWidget_6">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>110</y>
+        <width>175</width>
+        <height>151</height>
+       </rect>
+      </property>
+      <layout class="QFormLayout" name="formLayout_10">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_99">
+         <property name="text">
+          <string>X坐标</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="Car_X_4"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_100">
+         <property name="text">
+          <string>Y坐标</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="Car_Y_4"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_101">
+         <property name="text">
+          <string>Z坐标</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="Car_Z_4"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_102">
+         <property name="text">
+          <string> 速度</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="Car_V_4"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_103">
+         <property name="text">
+          <string> 状态</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="Car_S_4"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QSplitter" name="splitter_4">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>390</y>
+        <width>171</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="orientation">
+       <enum>Qt::Horizontal</enum>
+      </property>
+      <widget class="QLabel" name="label_104">
+       <property name="text">
+        <string>  图片选择</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="Pic_Sel_4">
+       <item>
+        <property name="text">
+         <string>Red_Color.jpg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>green.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>image.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images.jpg</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/AlilogoforWiki.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/rob.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/屏幕遮罩.png</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>images/胜利.png</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="Com_Open_Car_4">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>150</y>
+        <width>75</width>
+        <height>27</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>10</pointsize>
+        <weight>75</weight>
+        <bold>true</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="text">
+       <string>Open</string>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
